@@ -5,10 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "java",
-            "name": "CodeLens (Launch) - Main",
+            "name": "Python: Terminal (integrated)",
+            "type": "python",
             "request": "launch",
-            "mainClass": "utube.Main"
+            "program": "${file}",
+            "console": "integratedTerminal"
         },
         {
             "type": "node",
